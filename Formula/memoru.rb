@@ -7,12 +7,12 @@ class Memoru < Formula
 
   on_macos do
     url "https://github.com/kohbis/memoru/releases/download/#{version}/memoru-macos.tar.gz"
-    sha256 "27c10b8cf53a0908a4a62f4e8e867bb6b1b3f5a551efd90e8ebd0baae71203ec"
+    sha256 "27c10b8cf53a0908a4a62f4e8e867bb6b1b3f5a551efd90e8ebd0baae71203ec" # macos
   end
 
   on_linux do
     url "https://github.com/kohbis/memoru/releases/download/#{version}/memoru-linux.tar.gz"
-    sha256 "f6f8e47e00f2b7240042f1d67bce6ea8282c5028ff8c816fcd65ab95cf342a48"
+    sha256 "f6f8e47e00f2b7240042f1d67bce6ea8282c5028ff8c816fcd65ab95cf342a48" # linux
   end
 
   def install
