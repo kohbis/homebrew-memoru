@@ -3,7 +3,7 @@
 class Memoru < Formula
   desc "A simple CLI memo application built with Rust and SQLite3"
   homepage "https://github.com/kohbis/memoru"
-  version "v0.1.1"
+  version "v0.1.2"
 
   on_macos do
     url "https://github.com/kohbis/memoru/releases/download/#{version}/memoru-macos.tar.gz"
